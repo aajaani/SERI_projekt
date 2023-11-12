@@ -1,0 +1,23 @@
+#Pealehe_taust {
+    background-color: #334634;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+p {
+    color:#ffffff;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+    font-size: 18px;
+}
+h1, h2 {
+    color: #000000;
+    font-size: 32px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 10px;
+}

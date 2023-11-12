@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+#sidebar ul {
+    list-style-type: none; /* Eemaldab punktid */
+    padding: 0; 
+}
+#sidebar ul li a {
+    display: block; /* Muudab lingi terve loendi elemendi ulatuses */
+    background-color: #3c9c3f; /* Taustavärv */
+    color: white; /* Teksti värv */
+    padding: 20px; 
+    text-align: center; /* Keskendab teksti */
+    text-decoration: none; /* Eemaldab allakriipsutuse */
+    border-radius: 15px; /* Ümarad nurgad */
+    margin-bottom: 20px; /* Vahe nuppude vahel */
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 2px 2px 2px black;
+}
+#sidebar ul li a:hover {
+    background-color: #358039; /* Tumendab tausta kursori all */
+}
+#padding ul li {
+    background-color: #272a27; 
+}
+#padding {
+    position: fixed;
+    width: 230px;
+    height: 100vh;
+    float: left;
+    background-color: #527053;
+}
+
+#sidebar_border {
+    width: 250px;
+    height: 100vh;
+    float: left;
+}
+#sidebar{
+    position: fixed;
+}

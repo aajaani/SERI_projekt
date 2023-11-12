@@ -1,0 +1,11 @@
+body{
+    background-image: url("duckhunt.png");
+    background-size: 100%,100%;
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+}
+#sissejuhatus {
+    background-color: rgba(0, 0, 0, 0.2); /* Set a solid white background with an alpha value */
+    margin-inline-start: 230px;
+    padding: 10px; 
+}
