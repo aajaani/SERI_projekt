@@ -1,7 +1,7 @@
 body{
     background-image: url("duckhunt.png");
     background-size: 100%,100%;
-    background-blend-mode:screen;
+    background-blend-mode:darken;
     background-repeat: no-repeat;
 }
 #sissejuhatus {
