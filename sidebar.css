@@ -19,13 +19,13 @@
     margin-bottom: 20px; /* Vahe nuppude vahel */
     font-size: larger;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 #sidebar ul li a:hover {
     background-color: #358039; /* Tumendab tausta kursori all */
 }
 #padding ul li {
-    background-color: #272a27; 
+    background-color: rgba(0, 0, 0, 0); 
 }
 #padding {
     position: fixed;
