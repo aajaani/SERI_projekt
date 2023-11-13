@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+#header_padding {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    float: top;
+    background: url(header_bg.jpg);
+    background-size: cover;
+}
+
+#header_border {
+    height: 100px;
+    float: top;
+}
+#header{
+    position: fixed;
+}
