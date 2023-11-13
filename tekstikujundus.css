@@ -3,19 +3,10 @@ body{
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
-h2 {
-    color:white;
-    font: x-large;
-}
-p {
-    font-size: larger;    
-}
+
 img {
     width: 550px;
     border: 2px;
     float: right;
     padding: 20px
-}
-ul {
-    font-size:large;
 }
