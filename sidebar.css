@@ -10,7 +10,7 @@
 }
 #sidebar ul li a {
     display: block; /* Muudab lingi terve loendi elemendi ulatuses */
-    background-color: #3c9c3f; /* Taustavärv */
+    background-color: #1c7c1f; /* Taustavärv */
     color: white; /* Teksti värv */
     padding: 20px; 
     text-align: center; /* Keskendab teksti */
