@@ -1,18 +1,18 @@
-//Järgnev osa ja skript on piltide suurelt vaatamiseks -->
-// Koodi allikas: https://stackoverflow.com/questions/47798971/several-modal-images-on-page -->
-// create references to the modal...
+// Järgnev osa ja skript on piltide suurelt vaatamiseks
+// Koodi allikas: https://stackoverflow.com/questions/47798971/several-modal-images-on-page
+// Looge viited modaalaknale...
 var modal = document.getElementById('myModal');
-// to all images -- note I'm using a class!
+// ...kõigile piltidele -- pane tähele, et kasutan klassi!
 var images = document.getElementsByClassName('myImages');
-// the image in the modal
+// Pilt modaalaknas
 var modalImg = document.getElementById("img01");
-// and the caption in the modal
+// ...ja pealdis modaalaknas
 var captionText = document.getElementById("caption");
 
-// Go through all of the images with our custom class
+// Käime läbi kõik pildid, mis on meie kohandatud klassiga
 for (var i = 0; i < images.length; i++) {
   var img = images[i];
-  // and attach our click listener for this image.
+  // ...ja lisame sellele pildile klikkimise kuulari.
   img.onclick = function(evt) {
     modal.style.display = "block";
     modalImg.src = this.src;

@@ -7,14 +7,12 @@
 #header_padding {
     width: 100%;
     height: 100px;
-    float: top;
     background-image: url(header_bg.jpg);
     background-size: cover;
 }
 
 #header_border {
     height: 100px;
-    float: top;
 }
 #header{
     position: fixed;

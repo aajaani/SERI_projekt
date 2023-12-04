@@ -1,36 +1,27 @@
 /* Koodi allikas: https://stackoverflow.com/questions/47798971/several-modal-images-on-page */
 
 .myImages {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+  border-radius: 5px; /* Ümardatud nurgad */
+  cursor: pointer; /* Kursor muutub näpukujuliseks */
+  transition: 0.3s; /* Ülemineku efekt */
 }
 
 .myImages:hover {
-  opacity: 0.7;
+  opacity: 0.7; /* Läbipaistvus kursori liikumisel pildi kohal */
 }
 
 .modal {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  padding-top: 100px;
-  /* Location of the box */
+  display: none; /* Vaikimisi peidetud */
+  position: fixed; /* Jääb kindlasse asukohta */
+  z-index: 1; /* Tõstetud teiste elementide kohale */
+  padding-top: 100px; /* Kasti asukoht */
   left: 0;
   top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0);
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.9);
-  /* Black w/ opacity */
+  width: 100%; /* Täislaius */
+  height: 100%; /* Täiskõrgus */
+  overflow: auto; /* Kerimine, kui vajalik */
+  background-color: rgb(0, 0, 0); /* Varuvärv */
+  background-color: rgba(0, 0, 0, 0.9); /* Must läbipaistvusega */
 }
 
 .modal-content {
@@ -45,24 +36,24 @@
   display: block;
   width: 80%;
   max-width: 700px;
-  text-align: center;
-  color: #ccc;
+  text-align: center; /* Teksti joondamine keskele */
+  color: #ccc; /* Teksti värv */
   padding: 10px 0;
   height: 150px;
 }
 
 .modal-content,
 #caption {
-  animation-name: zoom;
-  animation-duration: 0.6s;
+  animation-name: zoom; /* Animatsiooni nimi */
+  animation-duration: 0.6s; /* Animatsiooni kestvus */
 }
 
 @keyframes zoom {
   from {
-    transform: scale(0)
+    transform: scale(0) /* Algusseisund */
   }
   to {
-    transform: scale(1)
+    transform: scale(1) /* Lõppseisund */
   }
 }
 
@@ -70,21 +61,21 @@
   position: absolute;
   top: 15px;
   right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
+  color: #f1f1f1; /* Nupu värv */
+  font-size: 40px; /* Fondi suurus */
+  font-weight: bold; /* Fondi paksus */
+  transition: 0.3s; /* Ülemineku efekt */
 }
 
 .close:hover,
 .close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
+  color: #bbb; /* Värv kursori liikumisel nupu kohal */
+  text-decoration: none; /* Teksti dekoratsioon */
+  cursor: pointer; /* Kursor muutub näpukujuliseks */
 }
 
 @media only screen and (max-width: 700px) {
   .modal-content {
-    width: 100%;
+    width: 100%; /* Laius väiksematel ekraanidel */
   }
 }
