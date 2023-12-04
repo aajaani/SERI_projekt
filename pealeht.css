@@ -21,5 +21,6 @@ a:hover{
 
 #sissejuhatus {
     margin-inline-start: 230px;
-    padding: 10px; 
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); 
 }

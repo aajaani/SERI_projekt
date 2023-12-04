@@ -9,12 +9,12 @@
     padding: 0; 
 }
 #sidebar ul li a {
-    display: block; /* Muudab lingi terve loendi elemendi ulatuses */
-    background-color: #1c7c1f; /* Taustavärv */
-    color: white; /* Teksti värv */
+    display: block; 
+    background-color: #1c7c1f;
+    color: white; 
     padding: 20px; 
-    text-align: center; /* Keskendab teksti */
-    text-decoration: none; /* Eemaldab allakriipsutuse */
+    text-align: center; 
+    text-decoration: none; 
     border-radius: 15px; /* Ümarad nurgad */
     margin-bottom: 20px; /* Vahe nuppude vahel */
     font-size: larger;
@@ -40,6 +40,4 @@
     height: 100vh;
     float: left;
 }
-#sidebar{
-    position: fixed;
-}
+

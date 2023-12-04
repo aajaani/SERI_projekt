@@ -4,7 +4,7 @@ body{
     line-height: 1.6;
 }
 
-<<<<<<< HEAD
+
 h1 {
     color: #152407;
 }
@@ -18,15 +18,10 @@ p {
     font-size: larger;    
 }
 
-=======
->>>>>>> 9a3660d2fad7cf11d255b32b973a6f519eb45246
-img {
-    width: 550px;
-    border: 2px;
-    float: right;
-    padding: 20px
-<<<<<<< HEAD
+div.section {
+    padding: 20px; 
+    background-color: rgb(137, 180, 137); 
+    border-radius: 5px; 
+    margin-bottom: 20px;
+    
 }
-=======
-}
->>>>>>> 9a3660d2fad7cf11d255b32b973a6f519eb45246

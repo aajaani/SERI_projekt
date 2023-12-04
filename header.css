@@ -5,11 +5,10 @@
 }
 
 #header_padding {
-    position: fixed;
     width: 100%;
     height: 100px;
     float: top;
-    background: url(header_bg.jpg);
+    background-image: url(header_bg.jpg);
     background-size: cover;
 }
 

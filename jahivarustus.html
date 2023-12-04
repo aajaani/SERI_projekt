@@ -33,8 +33,8 @@
     </div>
     <br>
     <h1>Jahivarustus</h1>
-    <h2>Tüüpilised Jahirelvad</h2>
-    <table>
+    <h2>Tüüpilised jahirelvad</h2>
+    <table style="font-size: 18px; background-color: rgb(137, 180, 137);">
         <tr>
             <th>Relva Tüüp</th>
             <th>Kirjeldus</th>
@@ -42,21 +42,24 @@
         <tr>
             <td>
                 Poldiga Vintpüssid
-                <img class="myImages" id="myImg" src="pildid/poldiga_vintpyss.png" alt="poldiga_vintpyss" style="width:100%;max-width:300px">
+                <br>
+                <img class="myImages" id="myImg" src="pildid/poldiga_vintpyss.png" alt="Poldiga vintpüss" style="width:100%;max-width:300px">
             </td>
             <td>Levinud suurulukijahil, pakuvad suurt täpsust ja usaldusväärsust.</td>
         </tr>
         <tr>
             <td>
                 Poolautomaatsed Vintpüssid
-                <img class="myImages" id="myImg" src="pildid/semi_auto.png" alt="Poolautomaatsed_vintpyssid" style="width:100%;max-width:300px">
+                <br>
+                <img class="myImages" id="myImg" src="pildid/semi_auto.png" alt="Poolautomaatsed vintpyssid" style="width:100%;max-width:300px">
             </td>
             <td>Kasutatakse tihti kiirete järeljooksvate laskude jaoks, näiteks metsseajahil.</td>
         </tr>
         <tr>
             <td>
                 Sileraudne tulirelv
-                <img class="myImages" id="myImg" src="pildid/sileraud.png" alt="Sileraudne_tulirelv" style="width:100%;max-width:300px">
+                <br>
+                <img class="myImages" id="myImg" src="pildid/sileraud.png" alt="Sileraudne tulirelv" style="width:100%;max-width:300px">
 
             </td>
             <td>Ideaalsed linnu- ja väikeulukijahil kiirete ja instinktiivsete laskude jaoks.</td>
@@ -64,33 +67,42 @@
         <tr>
             <td>
                 Kombineeritud tulirelv
-                <img class="myImages" id="myImg" src="pildid/hybriid.png" alt="Kombineeritud_tulirelv" style="width:100%;max-width:300px">
+                <br>
+                <img class="myImages" id="myImg" src="pildid/hybriid.png" alt="Kombineeritud tulirelv" style="width:100%;max-width:300px">
             </td>
             <td>Vintpüssi ja sileraudse tulirelva hübriid.</td>
         </tr>
     </table>
-    <div style="width:45%;float:left">
+    <div class="sections-container" style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; margin-left: 10%;">
+        <div class="section" style="font-size: 15px; text-align: center; margin: 10px; width: 35%;">
     <h2>Ohutusvarustus</h2>
     <p>Elutähtsa varustuse hulka kuuluvad:</p>
-    <ul>
-        <li>Turvavarustus: Kõrvaklapid, silmakaitse, ohutusvestid.</li>
-        <li>Navigeerimisvahendid: GPS-seadmed, kompassid, kaardid.</li>
-        <li>Esmaabikomplekt: Põhiline esmaabi varustus õnnetuste korral.</li>
-    </ul>
+        <li><b>Turvavarustus</b>: Kõrvaklapid, silmakaitse, ohutusvestid.</li>
+        <li><b>Navigeerimisvahendid</b>: GPS-seadmed, kompassid, kaardid.</li>
+        <li><b>Esmaabikomplekt</b>: Põhiline esmaabi varustus õnnetuste korral.</li>
     <br>
-    <br>
-    <br>
-    <h2>Jahikoerad</h2>
-    <p>Jahikoerad on jahimehe olulised kaaslased, aitavad jälitada ja taastada saaki. Koerte valik sõltub jahi tüübist:</p>
-    <ul>
-        <li>Hagijad: Linnu- ja väikeulukijahi jaoks.</li>
-        <li>Jälituskoerad: Suurulukijahi jaoks, aitavad jälitada haavatud ulukeid.</li>
-    </ul>
-</div>
-<div style="width:25%;float:left">
     <img class="myImages" id="myImg" src="pildid/ohutus.jpg" alt="Ohutusvarustus" style="width:100%;max-width:350px">
-    <img class="myImages" id="myImg" src="pildid/jahikoer.jpg" alt="Jahikoerad" style="width:100%;max-width:350px">
-
 </div>
-    </body>
-    </html>
+
+<div class="section" style="font-size: 15px; text-align: center; margin: 10px; width: 35%;">
+
+    <h2>Jahikoerad</h2>
+    <p>Jahikoerad on jahimehe olulised kaaslased, aitavad jälitada ja kätte saada saaki. Koerte valik sõltub jahi tüübist:</p>
+        <li><b>Hagijad</b>: Linnu- ja väikeulukijahi jaoks.</li>
+        <li><b>Jälituskoerad</b>: Suurulukijahi jaoks, aitavad jälitada haavatud ulukeid.</li>
+    <br>
+    <img class="myImages" id="myImg" src="pildid/jahikoer.jpg" alt="Jahikoerad" style="width:100%;max-width:350px">
+</div>
+    </div>
+  <!-- Järgnev osa ja skript on piltide suurelt vaatamiseks -->
+  <!-- Koodi allikas: https://stackoverflow.com/questions/47798971/several-modal-images-on-page -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01" src="." alt="Pilt">
+    <div id="caption"></div>
+  </div>
+  <script src="pildizoom.js"></script>
+  <!-- Piltide vaatamisega seonduva osa lõpp -->
+<script src="scrolling_sidebar.js"></script>
+</body>
+</html>
